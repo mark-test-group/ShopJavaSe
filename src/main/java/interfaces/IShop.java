@@ -1,11 +1,14 @@
 package interfaces;
 
+import objects.Product;
+
 public interface IShop {
 
     String getName();
 
-    void showAllDepartment();
 
     void addDepartment(IDepartment department);
+
+    void sell();
 
 }
