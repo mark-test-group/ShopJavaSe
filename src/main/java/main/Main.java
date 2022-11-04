@@ -19,6 +19,7 @@ public class Main {
         department.addProduct(product);
         department.addCashier(cashier);
 
+
         // изменить, чтобы продавал не магазин, а кассир, какой именно товар и кому
         shop.sell();
 
