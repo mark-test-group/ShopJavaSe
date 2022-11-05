@@ -30,9 +30,12 @@ public class Main {
 
         department.addCashier(cashier);
         cashier.showAvailableProduct();
+        System.out.println("------------------");
         // изменить, чтобы продавал не магазин, а кассир, какой именно товар и кому
         cashier.sell(product);
-
+        System.out.println("------------------");
+        cashier.sell(product1);
+        System.out.println("------------------");
         cashier.showAvailableProduct();
 
         //имеется список товаров, кассир продает товар sell(), товар удаляется из списка, метод transaction() показывает данные об операции
