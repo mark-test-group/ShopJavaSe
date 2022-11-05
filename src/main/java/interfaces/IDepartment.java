@@ -9,13 +9,12 @@ public interface IDepartment {
 
     String getName();
 
-    ArrayList<Product> getProductsList();
     ArrayList<Cashier> getCashiersList();
 
     void addCashier(Cashier cashier);
 
-    void addProduct(Product product);
 
-    void removeProduct(Product product);
+
+
 
 }

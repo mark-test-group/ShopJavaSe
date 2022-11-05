@@ -6,9 +6,13 @@ import lombok.*;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
-public class Product {
 
+public class Product {
     private String name;
 
+    @Override
+    public String toString() {
+        return name;
+
+    }
 }

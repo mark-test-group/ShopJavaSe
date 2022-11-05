@@ -6,9 +6,6 @@ public interface IShop {
 
     String getName();
 
-
     void addDepartment(IDepartment department);
-
-    void sell();
 
 }

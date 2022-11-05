@@ -15,7 +15,6 @@ public class Shop implements IShop {
 
     private String name;
     private Cashier cashier;
-    private Buyer buyer;
     private Department department;
     private Product product;
 
@@ -32,19 +31,7 @@ public class Shop implements IShop {
         departments.add(department);
     }
 
-    @Override
-    public void sell() {
-        for (IDepartment department : departments) {
-            System.out.println("Отдел: " + department.getName() + " произвел продажу");
-            department.removeProduct(product);
-            for (Product product1 : department.getProductsList()) {
-                System.out.println("Товар: " + product1.getName());
-             for (Cashier cashier1: department.getCashiersList()){
-                 System.out.println("Кассир: " +cashier1.getName() + "; Покупатель: "+ buyer.getName());
-             }
-            }
-        }
-    }
+
 }
 
 

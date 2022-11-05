@@ -8,5 +8,7 @@ import lombok.*;
 @Setter
 @ToString
 public class Buyer {
+
     private String name;
+
 }
